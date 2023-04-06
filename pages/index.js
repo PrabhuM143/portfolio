@@ -94,7 +94,7 @@ export default function Home() {
                 className="text-teal-500 hover:text-teal-700"
                 href="https://puriszerox.com/"
               >
-                PurisZeroX
+                PurisZeroX_
               </a>
               a automobile ceramic coating company which has many branches all
               of India and around the globe, and
