@@ -1,14 +1,11 @@
 {
-  "homepage":"https://PrabhuM143.github.io/portfolio",
   "name": "rectify",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "next start",
-    "predeploy":"npm run dev",
-    "deploy":"gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,22 +14,13 @@
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
-    "@types/react": "18.0.33",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.12",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
-    "gh-pages": "^5.0.0",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1"
-  },
-  {
-    "extends": "next",
-    "rules": {
-      "react/no-unescaped-entities": "off",
-      "@next/next/no-page-custom-font": "off"
-    }
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }

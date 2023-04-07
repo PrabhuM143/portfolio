@@ -74,7 +74,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-50 h-50 relative overflow-hidden mt-5 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" alt="dever" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="dev" />
             </div>
           </div>
         </section>
