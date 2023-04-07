@@ -41,6 +41,7 @@ export default function Home() {
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"
+                  download={(src = "../public/Resume.pdf")}
                 >
                   Resume
                 </a>
@@ -88,8 +89,8 @@ export default function Home() {
               <span className="text-teal-500">
                 (SRM Institute of Science and Technology : Kattankulathur)
               </span>
-              , I didnt get enough experience. But, I have done a Intership of
-              6 months in <br />
+              , I didnt get enough experience. But, I have done a Intership of 6
+              months in <br />
               <a
                 className="text-teal-500 hover:text-teal-700"
                 href="https://puriszerox.com/"
@@ -106,7 +107,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} alt="alternative"/>
+              <Image src={design} width={100} height={100} alt="alternative" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">For Designing</h3>
               <p className="py-2">
                 Creating elegant designs suited for your needs following core
@@ -118,7 +119,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} alt="alternative"/>
+              <Image src={code} width={100} height={100} alt="alternative" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">For Coding</h3>
               <p className="py-2">
                 Do you have an idea for your next great website? Lets make it a
@@ -129,7 +130,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Pycharm</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} alt="alternative"/>
+              <Image
+                src={consulting}
+                width={100}
+                height={100}
+                alt="alternative"
+              />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Extra</h3>
               <p className="py-2">
                 Having an Extra weapon in arsenal is always better
@@ -158,30 +164,34 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/4 flex-1 ">
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">This is the Project done in the Internship for Puris</p>
-              <a href="https://puriszerox.com/"> 
-              <Image
-                className="rounded-lg object-cover hover:blur-sm"
-                width={"100%"}
-                height={"60%"}
-                layout="responsive"
-                src={web1}
-                alt="project1"
-              />
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                This is the Project done in the Internship for Puris
+              </p>
+              <a href="https://puriszerox.com/">
+                <Image
+                  className="rounded-lg object-cover hover:blur-sm"
+                  width={"100%"}
+                  height={"60%"}
+                  layout="responsive"
+                  src={web1}
+                  alt="project1"
+                />
               </a>
             </div>
             <div className="basis-1/4 flex-1 ">
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">This is the Project done in college welfare</p>
-            <a href="https://biodiversity.srmist.edu.in/"> 
-              <Image
-                className="rounded-lg object-cover hover:blur-sm"
-                width={"100%"}
-                height={"60%"}
-                layout="responsive"
-                src={web2}
-                alt="project2"
-              />
-              </a> 
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                This is the Project done in college welfare
+              </p>
+              <a href="https://biodiversity.srmist.edu.in/">
+                <Image
+                  className="rounded-lg object-cover hover:blur-sm"
+                  width={"100%"}
+                  height={"60%"}
+                  layout="responsive"
+                  src={web2}
+                  alt="project2"
+                />
+              </a>
             </div>
           </div>
           <div className="text-center text-xs py-0 dark:text-white">
