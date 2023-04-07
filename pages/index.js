@@ -74,7 +74,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-50 h-50 relative overflow-hidden mt-5 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="dever" />
             </div>
           </div>
         </section>
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="alternative"/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">For Designing</h3>
               <p className="py-2">
                 Creating elegant designs suited for your needs following core
@@ -118,7 +118,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="alternative"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">For Coding</h3>
               <p className="py-2">
                 Do you have an idea for your next great website? Let's make it a
@@ -129,7 +129,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Pycharm</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="alternative"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Extra</h3>
               <p className="py-2">
                 Having an Extra weapon in arsenal is always better
@@ -166,6 +166,7 @@ export default function Home() {
                 height={"60%"}
                 layout="responsive"
                 src={web1}
+                alt="project2"
               />
               </a>
             </div>
@@ -178,6 +179,7 @@ export default function Home() {
                 height={"60%"}
                 layout="responsive"
                 src={web2}
+                alt="project1"
               />
               </a> 
             </div>
