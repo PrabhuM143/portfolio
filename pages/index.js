@@ -55,7 +55,7 @@ export default function Home() {
               Developer and designer.
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-l">
-              Hi, I'm a college student creating my first portfolio using
+              Hi, Im a college student creating my first portfolio using
               <span className="text-teal-500"> #tailwindcss</span>. These are my
               social media accounts, lets get connected.
             </p>
@@ -84,11 +84,11 @@ export default function Home() {
               Experience
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I'm Still at college{" "}
+              Im Still at college{" "}
               <span className="text-teal-500">
                 (SRM Institute of Science and Technology : Kattankulathur)
               </span>
-              , I didn't get enough experience. But, I have done a Intership of
+              , I didnt get enough experience. But, I have done a Intership of
               6 months in <br />
               <a
                 className="text-teal-500 hover:text-teal-700"
@@ -121,7 +121,7 @@ export default function Home() {
               <Image src={code} width={100} height={100} alt="alternative"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">For Coding</h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Coding Tools I Use</h4>
