@@ -166,7 +166,7 @@ export default function Home() {
                 height={"60%"}
                 layout="responsive"
                 src={web1}
-                alt="project2"
+                alt="project1"
               />
               </a>
             </div>
@@ -179,7 +179,7 @@ export default function Home() {
                 height={"60%"}
                 layout="responsive"
                 src={web2}
-                alt="project1"
+                alt="project2"
               />
               </a> 
             </div>
