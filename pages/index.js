@@ -57,7 +57,7 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-l">
               Hi, I'm a college student creating my first portfolio using
               <span className="text-teal-500"> #tailwindcss</span>. These are my
-              social media accounts, lets get connected...!
+              social media accounts, lets get connected.
             </p>
             <div className="text-2xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://twitter.com/PrabhuMurthy5">
